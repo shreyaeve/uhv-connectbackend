@@ -1,11 +1,10 @@
 {
   "name": "uhv-backend",
   "version": "1.0.0",
-  "main": "dist/server.js",
+  "main": "src/server.ts",
   "scripts": {
-    "build": "tsc",
     "dev": "nodemon src/server.ts",
-    "start": "node dist/server.js"
+    "start": "ts-node src/server.ts"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
